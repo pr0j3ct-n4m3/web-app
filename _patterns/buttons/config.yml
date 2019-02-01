@@ -1,0 +1,14 @@
+description: |
+  There are a few styles of buttons used on this site but each has its own purpose.
+
+patterns:
+  basic:
+    title: "Call to Action Button"
+    description: |
+      This button is used to draw a users attention. It is used for creating new items such as an account or new invoice.
+  ghost:
+    description: |
+      This button is used for more suttle actions such as log in.
+  light:
+    decription: |
+      This button is used in pop-ups for creating new invoices and projects.

@@ -1,0 +1,22 @@
+.btn {
+  background-colour: var(color-accent);
+  border-color: var(color-accent);
+  color: var(color-secondary);
+  border-radius: 50px;
+  width: 150px;
+  text-align: center;
+
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: var(colour-secondary);
+  color: var(color-secondary);
+}
+
+.btn-light {
+  background-color: var(color-primary-light);
+  border-color: none;
+  color: var(color-secondary);
+  border-radius: 10px;
+}
