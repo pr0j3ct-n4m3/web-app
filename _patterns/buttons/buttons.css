@@ -1,0 +1,11 @@
+.btn {
+  background-colour: var(color-primary);
+  border-color: var(color-secondary);
+  color: white;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: white;
+  color: var(color-primary);
+}
