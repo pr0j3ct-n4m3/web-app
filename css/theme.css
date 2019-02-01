@@ -12,4 +12,5 @@
 
 html {
   font-family: var(--font-primary);
+  color: var(--color-secondary);
 }

@@ -4,3 +4,6 @@ theme: jekyll_patternbot
 
 patternbot:
   font_url: "https://fonts.googleapis.com/css?family=Montserrat:400,600,700"
+  colors:
+    background: "--color-primary-light"
+    accent: "--color-secondary"
