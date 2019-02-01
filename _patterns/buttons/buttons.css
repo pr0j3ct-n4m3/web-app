@@ -1,11 +1,12 @@
 .btn {
-  background-colour: var(color-primary);
-  border-color: var(color-secondary);
-  color: white;
+  background-colour: var(color-accent);
+  border-color: var(color-accent);
+  color: var(color-secondary);
+
 }
 
 .btn-ghost {
   background-color: transparent;
-  border-color: white;
-  color: var(color-primary);
+  border-color: var(colour-secondary);
+  color: var(color-secondary);
 }
