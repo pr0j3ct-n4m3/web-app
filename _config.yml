@@ -7,3 +7,5 @@ patternbot:
   colors:
     background: "--color-primary-light"
     accent: "--color-secondary"
+    patterns:
+      buttons.light: "--color-primary"
