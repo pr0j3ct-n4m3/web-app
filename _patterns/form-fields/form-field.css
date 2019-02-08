@@ -1,0 +1,11 @@
+label {
+  color: var(--color-secondary);
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  border-color:
+}
