@@ -12,5 +12,10 @@
 
 html {
   font-family: var(--font-primary);
-  color: var(--color-secondary);
 }
+
+.primary-background {background-color: var(--color-primary)}
+
+.logo {width: 150px}
+
+header div ul li a {color: var(--color-secondary); text-decoration: none;}
