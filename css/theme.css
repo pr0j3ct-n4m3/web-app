@@ -16,6 +16,23 @@ html {
 
 .primary-background {background-color: var(--color-primary)}
 
+.semibold {font-weight: 600;}
+
+.white {color: var(--color-secondary)}
+
+
+/* ---Header --*/
+
+header #nav-elements ul li:nth-child(-n+4) a:active {color: var(--color-secondary);}
+
+header #nav-elements ul li:nth-child(-n+4) a:hover {color: #fff; transition: .2s all ease}
+
+header #nav-elements ul li:nth-child(-n+4) a {color: #a19fa9}
+
 .logo {width: 150px}
 
 header div ul li a {color: var(--color-secondary); text-decoration: none;}
+
+/* ---Footer--*/
+
+footer {background-color: var(--color-primary-light);}
