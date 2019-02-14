@@ -2,14 +2,13 @@
   <div class="grid grid-middle island-1-2 gutter">
 
     <!-------------- Logo ---------------->
-    <div id="logo" class="unit xs-1 s-1 m-1-6 l-1-6">
+    <div id="logo" class="unit xs-1-2 s-1-2 m-2-6 l-1-6">
       <a class="logo" href="{{site.baseurl}}/index.html"><img class="img-flex logo" src="{{site.baseurl}}/images/outvoice-logo-white.svg" alt="Outvoice white logo"></a>
     </div>
 
     <!-------------- Nav Elements ---------------->
 
-    <div id="nav-elements" class="unit xs-1 s-1 m-4-6 l-5-6">
-
+    <div id="myTopnav" class="unit xs-1-2 s-1-2 m-4-6 l-5-6">
         <ul class="list-group-inline push-0 right text-upper semibold">
           <li class="gutter"><a class="nano" href="#">Home</a></li>
           <li class="gutter"><a class="nano" href="#">Why Outvoice?</a></li>
@@ -18,8 +17,36 @@
           <li class="gutter btn btn-ghost"><a class="nano text-upper" href="#">Login</a></li>
           <li class="gutter btn btn-primary"><a class="nano text-upper" href="#">Register</a></li>
         </ul>
+    </div>
 
+    <div id="mobile-menu-btn">
+      <a style="color: #fff; padding:10px 15px 10px 10px; font-size: 1.5em;" href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div id="myTopMobileNav" class="topnav unit xs-1 s-1 pin-center">
+      <ul class="list-group push-0 text-upper semibold">
+        <li style="position:relative;height: 18vh" class="gutter pad-t-1-2 pad-b-1-2 text-center"><a class="tena pin-center" href="#">Home</a></li>
+        <li style="position:relative;height: 18vh" class="gutter pad-t-1-2 pad-b-1-2 text-center"><a class="tena pin-center" href="#">Why Outvoice?</a></li>
+        <li style="position:relative;height: 18vh" class="gutter pad-t-1-2 pad-b-1-2 text-center"><a class="tena pin-center" href="#">Regulations</a></li>
+        <li style="position:relative;height: 18vh" class="gutter pad-t-1-2 pad-b-1-2 text-center"><a class="tena pin-center" href="#">Contact Us</a></li>
+        <div style="position:relative;height: 18vh" class="list-group-inline text-center pad-t-1-2 pad-b-1-2">
+          <li style="width: 45%" class="gutter btn btn-ghost"><a class="giga text-upper" href="#">Login</a></li>
+          <li style="width: 45%" class="gutter btn btn-primary"><a class="giga text-upper" href="#">Register</a></li>
+        </div>
+      </ul>
     </div>
 
   </div>
 </header>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopMobileNav");
+    if (x.className === "topnav unit xs-1 s-1 pin-center") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav unit xs-1 s-1 pin-center";
+    }
+  }
+</script>
