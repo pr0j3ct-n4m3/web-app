@@ -17,10 +17,11 @@ html {
 .primary-background {background-color: var(--color-primary)}
 
 .semibold {font-weight: 600;}
-
 .medium {font-weight: 400}
 
 .white {color: var(--color-secondary)}
+.blue {color: var(--color-accent)}
+
 .body {color:#9b9aa4}
 
 
@@ -72,8 +73,9 @@ li a { display: block; width: 100%;}
 
 }
 
-
-
 /* ---Footer--*/
 
 footer {background-color: var(--color-primary-light);}
+
+
+/*---Index--*/
