@@ -13,3 +13,69 @@
 html {
   font-family: var(--font-primary);
 }
+
+.primary-background {background-color: var(--color-primary)}
+
+.semibold {font-weight: 600;}
+.medium {font-weight: 400}
+
+.white {color: var(--color-secondary)}
+.blue {color: var(--color-accent)}
+
+.body {color:#9b9aa4}
+
+
+/* ---Header --*/
+
+header #myTopnav ul li:nth-child(-n+4) a:active {color: var(--color-secondary);}
+
+header #myTopnav ul li:nth-child(-n+4) a:hover {color: #fff; transition: .2s all ease}
+
+header #myTopnav ul li:nth-child(-n+4) a {color: #a19fa9}
+
+.logo {width: 150px}
+
+header div ul li a {color: var(--color-secondary); text-decoration: none;}
+
+#mobile-menu-btn {display:none; position: absolute; right: 20px; top: 5px;}
+
+/* ---Mobile Nav--- */
+
+.responsive {
+  display: none!important;
+}
+
+#myTopMobileNav {
+  display: none;
+  height: 100vh;
+  background-color: rgba(19,16,39,0.9);
+  margin-top: 55px;
+}
+
+@media only screen and (max-width: 1130px) {
+
+#myTopnav, #myTopMobileNav {
+  display: none;
+}
+
+li a { display: block; width: 100%;}
+
+#mobile-menu-btn {
+  display:block;
+  float: right;
+}
+
+
+
+.responsive {
+  display: block!important;
+}
+
+}
+
+/* ---Footer--*/
+
+footer {background-color: var(--color-primary-light);}
+
+
+/*---Index--*/

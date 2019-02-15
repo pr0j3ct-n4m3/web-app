@@ -1020,6 +1020,7 @@ button,
   color: #fff;
   font: inherit;
   text-decoration: none;
+  transition: .2s all ease;
   text-transform: none;
 }
 
@@ -1029,50 +1030,6 @@ button::-moz-focus-inner {
 }
 
 /* stylelint-enable */
-
-button:focus,
-button:hover,
-.btn:focus,
-.btn:hover {
-  background-color: #000;
-  border-color: #000;
-  color: #fff;
-}
-
-button[disabled] {
-  cursor: default;
-}
-
-.btn-light, .btn--light {
-  background-color: #e2e2e2;
-  border-color: #e2e2e2;
-  color: #000;
-}
-
-.btn-light:focus,
-.btn-light:hover,
-.btn--light:focus,
-.btn--light:hover {
-  background-color: #666;
-  border-color: #666;
-  color: #fff;
-}
-
-.btn-ghost,
-.btn--ghost {
-  background-color: transparent;
-  border-color: #333;
-  color: #000;
-}
-
-.btn-ghost:focus,
-.btn-ghost:hover,
-.btn--ghost:focus,
-.btn--ghost:hover {
-  background-color: #e2e2e2;
-  border-color: #000;
-  color: #000;
-}
 
 .btn-link {
   display: inline;

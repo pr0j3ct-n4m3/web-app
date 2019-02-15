@@ -10,5 +10,5 @@ patterns:
     description: |
       This button is used for more suttle actions such as log in.
   light:
-    decription: |
-      This button is used in pop-ups for creating new invoices and projects.
+    description: |
+      This button is used in pop-ups for creating new invoices and projects. It is wider than the other button styles.
