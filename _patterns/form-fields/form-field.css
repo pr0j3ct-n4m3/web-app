@@ -1,0 +1,23 @@
+label {
+  color: var(--color-secondary);
+}
+
+input, textarea {
+  border: none;
+}
+
+input:focus {
+  border-color:
+}
+
+.small {
+  max-width: 400px;
+}
+
+.mini {
+  max-width: 150px;
+}
+
+.long, textarea {
+  max-width: 800px;
+}
