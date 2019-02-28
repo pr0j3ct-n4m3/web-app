@@ -1,0 +1,14 @@
+patterns:
+  homepagecards:
+    title: "Homepagecard"
+    description: |
+      Main Cards for index.
+    fields:
+      - name: title
+        type: string
+        example: "This is the title"
+      - name: description
+        type: string
+        example: "This is the description"
+      - name : icon
+        type: string

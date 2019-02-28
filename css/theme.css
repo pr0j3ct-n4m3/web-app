@@ -2,6 +2,7 @@
   --color-primary: #131027;
   --color-primary-light: #2E2C40;
   --color-secondary: #fff;
+  --color-body-copy: #b4b3ba;
   --color-accent: #00B9F2;
   --color-green: #91B87A;
   --color-blue: #93BBE3;
@@ -65,12 +66,9 @@ li a { display: block; width: 100%;}
   float: right;
 }
 
-
-
 .responsive {
   display: block!important;
 }
-
 }
 
 /* ---Footer--*/
