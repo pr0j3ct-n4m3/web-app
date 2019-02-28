@@ -1,1 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="135" height="180" viewBox="0 0 135 180"><path fill="#93bbe3" d="M90 90l16.1-16.1a9.1 9.1 0 0 0 0-12.8L73.9 28.9a8.9 8.9 0 0 0-12.8 0L28.9 61.1a9.1 9.1 0 0 0 0 12.8L45 90l-16.1 16.1a9.1 9.1 0 0 0 0 12.8l32.2 32.2a9.1 9.1 0 0 0 12.8 0l32.2-32.2a9.1 9.1 0 0 0 0-12.8z" style="isolation:isolate"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="134.973" height="179.973" viewBox="0 0 134.973 179.973">
+  <defs>
+    <filter id="Rectangle_23" x="0" y="0" width="134.973" height="134.973" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#93bbe3"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_66" x="0" y="45" width="134.973" height="134.973" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-color="#93bbe3"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_143" data-name="Group 143" transform="translate(-275.352 -417.5)">
+    <g transform="matrix(1, 0, 0, 1, 275.35, 417.5)" filter="url(#Rectangle_23)">
+      <rect id="Rectangle_23-2" data-name="Rectangle 23" width="63.62" height="63.62" rx="9" transform="translate(67.49 22.5) rotate(45)" fill="#93bbe3"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 275.35, 417.5)" filter="url(#Rectangle_66)">
+      <rect id="Rectangle_66-2" data-name="Rectangle 66" width="63.62" height="63.62" rx="9" transform="translate(67.49 67.5) rotate(45)" fill="#93bbe3"/>
+    </g>
+  </g>
+</svg>
