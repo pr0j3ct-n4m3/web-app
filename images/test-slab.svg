@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="134.973" height="179.973" viewBox="0 0 134.973 179.973">
+  <defs>
+    <filter id="Rectangle_23" x="0" y="0" width="134.973" height="134.973" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-color="#91b87a"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_65" x="0" y="45" width="134.973" height="134.973" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-color="#91b87a"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_142" data-name="Group 142" transform="translate(-275.352 -417.5)">
+    <g transform="matrix(1, 0, 0, 1, 275.35, 417.5)" filter="url(#Rectangle_23)">
+      <rect id="Rectangle_23-2" data-name="Rectangle 23" width="63.62" height="63.62" rx="9" transform="translate(67.49 22.5) rotate(45)" fill="#91b87a"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 275.35, 417.5)" filter="url(#Rectangle_65)">
+      <rect id="Rectangle_65-2" data-name="Rectangle 65" width="63.62" height="63.62" rx="9" transform="translate(67.49 67.5) rotate(45)" fill="#91b87a"/>
+    </g>
+  </g>
+</svg>

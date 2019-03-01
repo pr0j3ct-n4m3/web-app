@@ -1,0 +1,15 @@
+patterns:
+  dashboard-overview-card:
+    title: "Overview main card"
+    description: |
+      Card that shows the key data on the overview page once logged in.
+    fields:
+      - name: image
+        type: string
+        example: "data"
+      - name: piton
+        type: string
+        example: "data"
+      - name: piton-label
+        type: string
+        example: "data"

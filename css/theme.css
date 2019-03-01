@@ -1,7 +1,9 @@
 :root {
   --color-primary: #131027;
   --color-primary-light: #2E2C40;
+  --color-footer-bg: #4D4C5D;
   --color-secondary: #fff;
+  --color-body-copy: #b4b3ba;
   --color-accent: #00B9F2;
   --color-green: #91B87A;
   --color-blue: #93BBE3;
@@ -23,6 +25,14 @@ html {
 .blue {color: var(--color-accent)}
 
 .body {color:#9b9aa4}
+
+
+#main-page-bg {
+  background-image: url(/images/index-background-image@2x.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
 
 
 /* ---Header --*/
@@ -65,17 +75,41 @@ li a { display: block; width: 100%;}
   float: right;
 }
 
-
-
 .responsive {
   display: block!important;
 }
-
 }
 
 /* ---Footer--*/
 
-footer {background-color: var(--color-primary-light);}
+footer {background-color: var(--color-footer-bg);border-top: 5px solid var(--color-primary-light)}
+
+@media only screen and (max-width: 38em) {
+
+  footer {
+    text-align: center;
+  }
+
+  #tagline {
+    display: none;
+  }
+
+  #footer-contact {
+    width: 300px;
+  }
+
+}
 
 
-/*---Index--*/
+/*---Dashboard--*/
+
+#dashboard-viewport {
+  height: 105vh;
+  background-image: url(/images/dashboard-bg.jpg);
+  background-size: contain;
+  overflow: hidden;
+}
+
+.overview-cards {
+  max-width: 1500px;
+}
