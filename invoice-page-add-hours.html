@@ -1,16 +1,8 @@
 ---
-layout: subpage-w-scroll
+layout: subpage
 ---
 
-<div style="width: 100%; z-index:3;" class="">
-  {% pattern dashboard-top-nav/dashboard-top-nav %}
-</div>
-
-
-{% pattern dashboard-left-nav/dashboard-left-nav %}
-
-
-<section id="dashboard-main-viewport" style="width:89%" class="left">
+<section id="dashboard-main-viewport" style="width:89%" class="dashboard-card">
 
   <div style="padding-bottom: 0px;!important" class="island push-0">
     <h1 class="blue semibold push-0 giga">Invoices</h1>
@@ -115,37 +107,29 @@ layout: subpage-w-scroll
         </div>
         <div style="background-color: #2E2C40" class="grid bottom-box-corners">
           <div class="unit xs-1 s-1">
-            <div class="grid">
-              <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter pad-t-1-2 pad-b-1-2 text-center">
-                <p class="nano push-0 white">March 20th</p>
-              </div>
-              <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter pad-t-1-2 pad-b-1-2 text-center">
-                <p class="nano push-0">6 Hours</p>
-              </div>
+            <div class="grid pad-t-1-2">
+              <form class="" action="index.html" method="post">
+                <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+                  {% pattern form-fields/short-text-input short-text-input="Date"%}
+                </div>
+                <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+                  {% pattern form-fields/short-text-input short-text-input="Hours"%}
+                </div>
+                <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+                  {% pattern form-fields/short-text-input short-text-input="Description"%}
+                </div>
+                <div class="unit xs-1 s-1 m-1-2 l-1-2">
+                  <li class="gutter btn btn-primary">
+                    <a class="nano text-upper white semibold text-deco-none" href="#">Add</a>
+                  </li>
+                  <li class="gutter btn btn-ghost">
+                    <a class="nano text-upper white semibold text-deco-none" href="#">Cancel</a>
+                  </li>
+                </div>
+              </form>
             </div>
           </div>
-          <div class="unit xs-1 s-1">
-            <div class="grid">
-              <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter pad-t-1-2 pad-b-1-2 text-center">
-                <p class="nano push-0 white">March 23rd</p>
-              </div>
-              <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter pad-t-1-2 pad-b-1-2 text-center">
-                <p class="nano push-0">6 Hours</p>
-              </div>
-            </div>
-          </div>
-          <div class="unit xs-1 s-1">
-            <div class="grid">
-              <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter pad-t-1-2 pad-b-1-2 text-center">
-                <p class="nano push-0 white">April 2nd</p>
-              </div>
-              <div class="unit xs-1 s-1-2 m-1-2 l-1-2 gutter pad-t-1-2 pad-b-1-2 text-center">
-                <p class="nano push-0">6 Hours</p>
-              </div>
-            </div>
-          </div>
-      </div>
-      </div>
+        </div>
 
       <div class="data-box">
         <h2 style="background-color:#4D4C5D" class="micro medium pad-t-1-4 pad-b-1-4 white gutter top-box-corners push-0"><b>Data</b> | Invoice Summary</h2>
