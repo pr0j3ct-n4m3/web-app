@@ -1,6 +1,7 @@
 :root {
   --color-primary: #131027;
   --color-primary-light: #2E2C40;
+  --color-primary-grey: #565465;
   --color-footer-bg: #4D4C5D;
   --color-secondary: #fff;
   --color-body-copy: #b4b3ba;
@@ -16,19 +17,27 @@ html {
   font-family: var(--font-primary);
 }
 
-.primary-background {background-color: var(--color-primary);}
-
-.text-deco-none {
-  text-decoration: none;
+.primary-background {
+  background-color: var(--color-primary);
 }
 
-.semibold {font-weight: 600;}
-.medium {font-weight: 400;}
+.semibold {
+  font-weight: 600;
+}
+.medium {
+  font-weight: 400;
+}
 
-.white {color: var(--color-secondary);}
-.blue {color: var(--color-accent);}
+.white {
+  color: var(--color-secondary);
+}
+.blue {
+  color: var(--color-accent);
+}
 
-.body {color:#9b9aa4;}
+.body {
+  color:#9b9aa4;
+}
 
 
 #main-page-bg {
@@ -41,17 +50,33 @@ html {
 
 /* ---Header --*/
 
-header #myTopnav ul li:nth-child(-n+4) a:active {color: var(--color-secondary);}
+header #myTopnav ul li:nth-child(-n+4) a:active {
+  color: var(--color-secondary);
+}
 
-header #myTopnav ul li:nth-child(-n+4) a:hover {color: #fff; transition: .2s all ease}
+header #myTopnav ul li:nth-child(-n+4) a:hover {
+  color: #fff; transition: .2s all ease;
 
-header #myTopnav ul li:nth-child(-n+4) a {color: #a19fa9}
+}
 
-.logo {width: 150px}
+header #myTopnav ul li:nth-child(-n+4) a {
+  color: #a19fa9;
+}
 
-header div ul li a {color: var(--color-secondary); text-decoration: none;}
+.logo {
+  width: 150px;
+}
 
-#mobile-menu-btn {display:none; position: absolute; right: 20px; top: 5px;}
+header div ul li a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+#mobile-menu-btn {
+  display:none;
+  position: absolute;
+  right: 20px;
+  top: 5px;}
 
 /* ---Mobile Nav--- */
 
@@ -68,25 +93,31 @@ header div ul li a {color: var(--color-secondary); text-decoration: none;}
 
 @media only screen and (max-width: 1130px) {
 
-#myTopnav, #myTopMobileNav {
-  display: none;
-}
+  #myTopnav, #myTopMobileNav {
+    display: none;
+  }
 
-li a { display: block; width: 100%;}
+  li a {
+    display: block;
+    width: 100%;
+  }
 
-#mobile-menu-btn {
-  display:block;
-  float: right;
-}
+  #mobile-menu-btn {
+    display:block;
+    float: right;
+  }
 
-.responsive {
-  display: block!important;
-}
+  .responsive {
+    display: block!important;
+  }
 }
 
 /* ---Footer--*/
 
-footer {background-color: var(--color-footer-bg);border-top: 5px solid var(--color-primary-light)}
+footer {
+  background-color: var(--color-footer-bg);
+  border-top: 5px solid var(--color-primary-light);
+}
 
 @media only screen and (max-width: 38em) {
 
@@ -120,22 +151,25 @@ footer {background-color: var(--color-footer-bg);border-top: 5px solid var(--col
 
 @media only screen and (max-width: 38em) {
 
-#dashboard-viewport {
-  overflow: scroll!important;
-  height: 220vh;
-  text-align: center;
-}
+  #dashboard-viewport {
+    overflow: scroll!important;
+    height: 220vh;
+    text-align: center;
+  }
 
-#quick-btns-dashboard {
-  display: none;
-}
-
+  #quick-btns-dashboard {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 60em) {
-#quick-btns-dashboard {
-  display: none;
-}
+  #quick-btns-dashboard {
+    display: none;
+  }
+  #dashboard-viewport-scroll {
+    overflow: scroll;
+    height: 175vh;
+  }
 }
 
 /*--Invoice Page --*/
@@ -160,11 +194,56 @@ footer {background-color: var(--color-footer-bg);border-top: 5px solid var(--col
   border-radius: 0px 0px 15px 15px;
 }
 
-@media only screen and (max-width: 60em) {
-
-#dashboard-viewport-scroll {
-  overflow: scroll;
-  height: 175vh;
+.log-in-card {
+  background-color: var(--color-primary-light);
+  border-radius: 20px;
+  width: 25em;
 }
 
+.register-card {
+  width: 50em;
+}
+
+.form-sec {
+  height: 100vh;
+  background-image: url('/images/dashboard-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.form-sec-register {
+  height: 180vh;
+  background-image: url('/images/dashboard-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.dashboard-card {
+  margin-top: 3em;
+}
+
+.link-color {
+  color: var(--color-accent);
+}
+
+.overflow-scroll {
+  height: 100vh;
+  overflow: scroll;
+  width: 100%;
+  margin: 0 90px;
+}
+
+.new-project-card {
+  background-color: var(--color-primary-light);
+  padding: 1em 1em;
+  border-radius: 0 0 20px 20px;
+}
+
+.new-project-card-title {
+  background-color: var(--color-primary-grey);
+  padding: .75em 1em;
+  border-radius: 20px 20px 0 0;
+  margin-bottom: 0;
 }
