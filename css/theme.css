@@ -16,19 +16,19 @@ html {
   font-family: var(--font-primary);
 }
 
-.primary-background {background-color: var(--color-primary)}
+.primary-background {background-color: var(--color-primary);}
 
 .text-deco-none {
   text-decoration: none;
 }
 
 .semibold {font-weight: 600;}
-.medium {font-weight: 400}
+.medium {font-weight: 400;}
 
-.white {color: var(--color-secondary)}
-.blue {color: var(--color-accent)}
+.white {color: var(--color-secondary);}
+.blue {color: var(--color-accent);}
 
-.body {color:#9b9aa4}
+.body {color:#9b9aa4;}
 
 
 #main-page-bg {
@@ -140,6 +140,13 @@ footer {background-color: var(--color-footer-bg);border-top: 5px solid var(--col
 
 /*--Invoice Page --*/
 
+#dashboard-viewport-scroll {
+  height: 105vh;
+  background-image: url(/images/dashboard-bg.jpg);
+  background-size: contain;
+  overflow: hidden;
+}
+
 .active-box {
   background-color: var(--color-primary-light);
   border-radius: 15px 15px 15px 15px;
@@ -153,10 +160,11 @@ footer {background-color: var(--color-footer-bg);border-top: 5px solid var(--col
   border-radius: 0px 0px 15px 15px;
 }
 
-@@media only screen and (min-width: 38em) {
+@media only screen and (max-width: 60em) {
 
-.dashboard-subpage-main-viewport {
+#dashboard-viewport-scroll {
   overflow: scroll;
+  height: 175vh;
 }
 
 }
