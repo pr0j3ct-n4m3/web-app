@@ -162,6 +162,7 @@ footer {
   }
 }
 
+
 @media only screen and (max-width: 60em) {
   #quick-btns-dashboard {
     display: none;
