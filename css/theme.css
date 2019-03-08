@@ -18,6 +18,10 @@ html {
 
 .primary-background {background-color: var(--color-primary)}
 
+.text-deco-none {
+  text-decoration: none;
+}
+
 .semibold {font-weight: 600;}
 .medium {font-weight: 400}
 
@@ -112,4 +116,39 @@ footer {background-color: var(--color-footer-bg);border-top: 5px solid var(--col
 
 .overview-cards {
   max-width: 1500px;
+}
+
+@media only screen and (max-width: 38em) {
+
+#dashboard-viewport {
+  overflow: scroll!important;
+  height: 220vh;
+  text-align: center;
+}
+
+#quick-btns-dashboard {
+  display: none;
+}
+
+}
+
+@media only screen and (max-width: 60em) {
+#quick-btns-dashboard {
+  display: none;
+}
+}
+
+/*--Invoice Page --*/
+
+.active-box {
+  background-color: var(--color-primary-light);
+  border-radius: 15px 15px 15px 15px;
+}
+
+.top-box-corners {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.bottom-box-corners {
+  border-radius: 0px 0px 15px 15px;
 }

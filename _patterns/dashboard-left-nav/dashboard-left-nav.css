@@ -4,3 +4,12 @@
   z-index:999;
   width:90px;
 }
+
+
+@media only screen and (max-width: 60em) {
+
+  .left-dashboard-nav {
+    display: none;
+  }
+
+}
