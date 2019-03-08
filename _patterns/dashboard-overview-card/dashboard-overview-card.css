@@ -7,3 +7,7 @@
   max-width: 450px;
   height: 220px;
 }
+
+.green-txt {color: var(--color-green);}
+.blue-txt {color: var(--color-blue);}
+.yellow-txt {color: var(--color-yellow);}

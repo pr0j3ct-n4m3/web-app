@@ -149,6 +149,51 @@ footer {
   max-width: 1500px;
 }
 
+@media only screen and (max-width: 38em) {
+
+  #dashboard-viewport {
+    overflow: scroll!important;
+    height: 220vh;
+    text-align: center;
+  }
+
+  #quick-btns-dashboard {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 60em) {
+  #quick-btns-dashboard {
+    display: none;
+  }
+  #dashboard-viewport-scroll {
+    overflow: scroll;
+    height: 175vh;
+  }
+}
+
+/*--Invoice Page --*/
+
+#dashboard-viewport-scroll {
+  height: 105vh;
+  background-image: url(/images/dashboard-bg.jpg);
+  background-size: contain;
+  overflow: hidden;
+}
+
+.active-box {
+  background-color: var(--color-primary-light);
+  border-radius: 15px 15px 15px 15px;
+}
+
+.top-box-corners {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.bottom-box-corners {
+  border-radius: 0px 0px 15px 15px;
+}
+
 .log-in-card {
   background-color: var(--color-primary-light);
   border-radius: 20px;
