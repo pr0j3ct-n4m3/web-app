@@ -152,3 +152,11 @@ footer {background-color: var(--color-footer-bg);border-top: 5px solid var(--col
 .bottom-box-corners {
   border-radius: 0px 0px 15px 15px;
 }
+
+@@media only screen and (min-width: 38em) {
+
+.dashboard-subpage-main-viewport {
+  overflow: scroll;
+}
+
+}
