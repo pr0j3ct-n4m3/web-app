@@ -18,7 +18,6 @@ layout: subpage
   </div>
 
   <div class="grid island">
-
     <div class="unit xs-1 s-1 m-1-3 l-1-2">
       <h2 class="semibold white mega push-0">Recent Clients</h2>
       <div class="grid push">
@@ -26,47 +25,45 @@ layout: subpage
           <i class="icon i-48">
             <img src="/images/green-overview-icon.svg" alt="">
           </i>
-        <span class="icon-label semibold milli white">Google</span>
+          <span class="icon-label semibold milli white">Google</span>
         </div>
         <div class="unit xs-1 s-1 m-1 l-1-3 push-1-2">
           <i class="icon i-48">
             <img src="/images/green-overview-icon.svg" alt="">
           </i>
-        <span class="icon-label semibold milli white">Google</span>
+          <span class="icon-label semibold milli white">Google</span>
         </div>
         <div class="unit xs-1 s-1 m-1 l-1-3 push-1-2">
           <i class="icon i-48">
             <img src="/images/green-overview-icon.svg" alt="">
           </i>
-        <span class="icon-label semibold milli white">Google</span>
+          <span class="icon-label semibold milli white">Google</span>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div id="quick-btns-dashboard" class="grid">
-        <div class="unit xs-1 s-1 m-1 l-1">
-          <h2 class="semibold white mega">Quick Links</h2>
-          <ul class="list-group-inline text-upper">
-            <li class="gutter btn btn-primary"><a class="nano text-upper white semibold text-deco-none" href="#">New Project</a></li>
-            <li class="gutter btn btn-primary"><a class="nano text-upper white semibold text-deco-none" href="#">Saved Clients</a></li>
-          </ul>
-        </div>
-      </div>
+  <div id="quick-btns-dashboard" class="grid gutter">
+    <div class="unit xs-1 s-1 m-1-3 l-1-2">
+      <h2 class="semibold white mega">Quick Links</h2>
+      {% pattern buttons/basic basic="New Project" href="/new-project/" %}
+      {% pattern buttons/basic basic="Saved Clients" href="/clients/" %}
     </div>
 
     <div class="unit xs-1 s-1 m-2-3 l-1-2">
       <div class="grid">
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 text-center push-2">
-        <h2 class="semibold white mega">Upcoming Events</h2>
-        <img width="200px" src="/images/calendar-image.svg" alt="Calendar">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 text-center push-2">
+          <h2 class="semibold white mega">Upcoming Events</h2>
+          <img width="200px" src="/images/calendar-image.svg" alt="Calendar">
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 text-center">
+          <h2 style='border-bottom: 1px solid #fff;' class="semibold white mega pad-b-1-4 push-1-4">February 4th 2018</h2>
+          <h4 class="medium milli text-left white push-0">Apple Invoice Due</h4>
+          <p class="body-copy text-left pico push-1-4">Make sure Apple invoice is done. Big contracts coming up and need to make sure its done.</p>
+          <h4 class="medium milli text-left white push-0">Microsoft Invoice Due</h4>
+          <p class="body-copy text-left pico">Complete the Microsoft invoice. Need it to be done.</p>
+        </div>
       </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 text-center">
-        <h2 style='border-bottom: 1px solid #fff;' class="semibold white mega pad-b-1-4 push-1-4">February 4th 2018</h2>
-        <h4 class="medium milli text-left white push-0">Apple Invoice Due</h4>
-        <p class="body-copy text-left pico push-1-4">Make sure Apple invoice is done. Big contracts coming up and need to make sure its done.</p>
-        <h4 class="medium milli text-left white push-0">Microsoft Invoice Due</h4>
-        <p class="body-copy text-left pico">Complete the Microsoft invoice. Need it to be done.</p>
-      </div>
-    </div>
     </div>
   </div>
 
