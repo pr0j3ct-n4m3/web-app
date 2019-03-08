@@ -17,4 +17,15 @@
   .left-dashboard-nav {
     display: none;
   }
+
+}
+
+@media only screen and (max-width: 60em) {
+  .top-dashboard-nav {
+    margin-left: 0;
+  }
+
+  .overflow-scroll {
+    margin-left: 0;
+  }
 }
