@@ -12,8 +12,11 @@
   <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}">
 </head>
 <body id="dashboard-viewport" style="background-color: #131027;">
-
-  {{content}}
+  {% pattern dashboard-left-nav/dashboard-left-nav %}
+  {% pattern dashboard-top-nav/dashboard-top-nav %}
+  <main class="overflow-scroll">
+    {{content}}
+  </main>
 
 </body>
 </html>
