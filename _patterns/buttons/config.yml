@@ -7,8 +7,41 @@ patterns:
     description: |
       This button is used to draw a users attention. It is used for creating new items such as an account or new invoice.
   ghost:
+    title: "Ghost Button"
     description: |
       This button is used for more suttle actions such as log in.
   light:
+    title: "Subtle Action Buttons"
     description: |
       This button is used in pop-ups for creating new invoices and projects. It is wider than the other button styles.
+
+  homepagecards:
+    title: "Main Card for the Homepage"
+
+  dashboard-left-nav:
+    title: "Dashboard Tabular Sidebar Navigation"
+    description: |
+      This is the naviagtion in the side of the screen when logged into the application.
+
+  dashboard-overview-card:
+    title: "Account Overview"
+    description: |
+      This is the card which will tell you an overview of your account.
+
+  dashboard-top-nav:
+    title: "Dashboard Top Navigation"
+    description: |
+      This is the top bar for inside the application.
+
+  checkbox:
+    title: "Checkbox"
+    description: |
+      Checkbox for forms.
+  short-text-input:
+    title: "Regualar Text Input"
+    description: |
+      This is your standard text input used for short pieces of information such as a name.
+  paragraph-input:
+    title: "Long Text Input"
+    description: |
+      This is used for longer sections of text input such as project descriptions.
