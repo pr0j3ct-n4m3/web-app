@@ -1,6 +1,13 @@
 .left-dashboard-nav {
+  position: fixed;
   background-color: #2E2C40;
   height: 100%;
   z-index:999;
   width:90px;
+}
+
+.top-dashboard-nav {
+  position: fixed;
+  width: 100%;
+  margin-left: 90px;
 }

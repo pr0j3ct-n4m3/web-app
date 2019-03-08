@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<section class="form-sec-register relative">
+  <form class="" action="index.html" method="post">
+    <div class="push-2 pin-c absolute register-card island-2 text-center">
+
+      <h2 class="link-color normal giga push-1-4">Register For An Account</h2>
+      <p class="nano push-2">Already have an account? <a class="link-color" href="/log-in/">Log-in</a></p>
+
+      <h3 class="text-left gutter mega">Personal Information</h3>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+          {% pattern form-fields/short-text-input short-text-input="First Name"%}
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+          {% pattern form-fields/short-text-input short-text-input="Last Name"%}
+        </div>
+      </div>
+      <div class="gutter">
+        {% pattern form-fields/short-text-input short-text-input="Email Address"%}
+      </div>
+      <div class="gutter">
+        {% pattern form-fields/short-text-input short-text-input="Street Address"%}
+      </div>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+          {% pattern form-fields/short-text-input short-text-input="Unit/Apartment Number"%}
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+          {% pattern form-fields/short-text-input short-text-input="City"%}
+        </div>
+      </div>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+          {% pattern form-fields/short-text-input short-text-input="Province"%}
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+          {% pattern form-fields/short-text-input short-text-input="Postal Code"%}
+        </div>
+      </div>
+
+      <h3 class="text-left gutter mega pad-t">Payment Information</h3>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+          {% pattern form-fields/short-text-input short-text-input="Name On Card"%}
+        </div>
+      </div>
+      <div class="grid push">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+          {% pattern form-fields/short-text-input short-text-input="Card Number"%}
+        </div>
+        <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter">
+          {% pattern form-fields/short-text-input short-text-input="Expiry Date"%}
+        </div>
+        <div class="unit xs-1 s-1 m-1-4 l-1-4 gutter">
+          {% pattern form-fields/short-text-input short-text-input="CVV"%}
+        </div>
+      </div>
+      <div class="grid">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2">
+          {% pattern form-fields/check-box check-box="Billing address same as above" %}
+        </div>
+      </div>
+
+      {% pattern buttons/basic basic="Create Account" href="/new-project/" %}
+
+    </div>
+
+  </form>
+</section>

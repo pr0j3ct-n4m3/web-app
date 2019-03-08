@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<section class="form-sec relative">
+  <form class="" action="index.html" method="post">
+    <div class="push-2 pad-t-2 pin-c absolute log-in-card island-2 text-center">
+
+      <h2 class="link-color normal giga">Log Into Your Account</h2>
+
+      {% pattern form-fields/short-text-input short-text-input="Username" %}
+      {% pattern form-fields/short-text-input short-text-input="Password" %}
+
+      {% pattern buttons/basic basic="Log-In" href="/dashboard/" %}
+
+      <p class="pad-t nano push-0">Need an account? <a class="link-color" href="/register/">Sign Up</a></p>
+    </div>
+
+  </form>
+</section>
