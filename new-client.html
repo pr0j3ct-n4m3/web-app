@@ -1,0 +1,66 @@
+---
+layout: subpage
+---
+
+<section class="dashboard-card">
+  <form class="" action="index.html" method="post">
+    <div class="push-2 register-card island-2">
+
+      <h2 class="link-color normal giga push-0">New Client</h2>
+      <p class="nano">Create a new client to bill for your freelance projects.</p>
+
+      <div class="">
+        <h3 class="text-left kilo normal gutter new-project-card-title">Create A New Client</h3>
+        <div class="new-project-card">
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+              {% pattern form-fields/short-text-input short-text-input="First Name"%}
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+              {% pattern form-fields/short-text-input short-text-input="Last Name"%}
+            </div>
+          </div>
+          <div class="gutter">
+            {% pattern form-fields/short-text-input short-text-input="Company Name"%}
+          </div>
+          <div class="gutter">
+            {% pattern form-fields/short-text-input short-text-input="Email Address"%}
+          </div>
+          <div class="gutter">
+            {% pattern form-fields/short-text-input short-text-input="Street Address"%}
+          </div>
+
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+              {% pattern form-fields/short-text-input short-text-input="Unit/Apartment Number"%}
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+              {% pattern form-fields/short-text-input short-text-input="City"%}
+            </div>
+          </div>
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+              {% pattern form-fields/short-text-input short-text-input="Province"%}
+            </div>
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+              {% pattern form-fields/short-text-input short-text-input="Postal Code"%}
+            </div>
+          </div>
+
+          <div class="text-center">
+            <div class="island-1-2">
+              {% pattern buttons/light light="Create" href="/dashboard/" %}
+            </div>
+            <div class="island-1-2">
+              {% pattern buttons/light light="Cancel" href="/dashboard/" %}
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </form>
+</section>
