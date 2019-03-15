@@ -1,16 +1,12 @@
 ---
-layout: subpage-w-scroll
+layout: subpage
 ---
 
-<div style="width: 100%; z-index:3;" class="">
-  {% pattern dashboard-top-nav/dashboard-top-nav %}
+<div class="app-mobile-nav">
+  {% include  mobile-app-nav.html %}
 </div>
 
-
-{% pattern dashboard-left-nav/dashboard-left-nav %}
-
-
-<section id="dashboard-main-viewport" style="width:89%" class="left">
+<section id="dashboard-main-viewport" style="width:89%" class="dashboard-card">
 
   <div style="padding-bottom: 0px;!important" class="island push-0">
     <h1 class="blue semibold push-0 giga">Invoices</h1>
@@ -23,26 +19,26 @@ layout: subpage-w-scroll
       <div class="active-box">
         <h2 style="background-color:#4D4C5D" class="kilo semibold pad-t-1-2 pad-b-1-2 white gutter top-box-corners push-0">Active Projects</h2>
         <ul class="list-group bottom-box-corners">
-          <a class="project-hover" href="#">
+          <a class="project-hover custom-link" href="#">
           <li class="pad-t-1-2 pad-b-1-2 push-0 gutter">
             <h4 class="milli white push-0 medium">Shopify</h4>
             <p class="pico push-0">Web Template | Deadline : March 3rd</p>
           </li>
           </a>
-          <a class="project-hover" href="#">
+          <a class="project-hover custom-link" href="#">
           <li class="pad-t-1-2 pad-b-1-2 push-0 gutter">
             <h4 class="milli white push-0 medium">Apple</h4>
             <p class="pico push-0">Branding Project | Deadline : February 31st</p>
           </li>
           </a>
-          <a class="project-hover" href="#">
+          <a class="project-hover custom-link" href="#">
           <li class="pad-t-1-2 pad-b-1-2 push-0 gutter">
             <h4 class="milli white push-0 medium">Microsoft</h4>
             <p class="pico push-0">Marketing Project | Deadline : May 2nd</p>
           </li>
           </a>
-          <a class="project-hover" href="#">
-          <li class="pad-t-1-2 pad-b-1-2 push-0 gutter">
+          <a class="project-hover custom-link" href="#">
+          <li class="pad-t-1-2 pad-b-1-2 push-0 gutter custom-link">
             <h4 class="milli white push-0 medium">Indigo</h4>
             <p class="pico push-0">Marketing Project | Deadline : September 21st</p>
           </li>

@@ -48,6 +48,19 @@ html {
 }
 
 
+#custom-link {
+  text-decoration: none;
+}
+
+.link-box-hover {
+  transition: all .2s ease;
+}
+
+.link-box-hover:hover {
+  background-color: var(--color-primary);
+}
+
+
 /* ---Header --*/
 
 header #myTopnav ul li:nth-child(-n+4) a:active {
@@ -77,6 +90,12 @@ header div ul li a {
   position: absolute;
   right: 20px;
   top: 5px;}
+
+  #mobile-menu-btn-app{
+    display:none;
+    position: absolute;
+    right: 20px;
+    top: 5px;}
 
 /* ---Mobile Nav--- */
 
@@ -110,6 +129,28 @@ header div ul li a {
   .responsive {
     display: block!important;
   }
+}
+
+@media only screen and (max-width: 60em) {
+
+  #mobile-menu-btn-app {
+    display:block;
+    float: right;
+  }
+
+}
+
+@media only screen and (max-width: 25em) {
+
+  .name-hide {
+    display: none!important;
+  }
+
+}
+
+
+.app-mobile-nav {
+
 }
 
 /* ---Footer--*/
@@ -153,7 +194,7 @@ footer {
 
   #dashboard-viewport {
     overflow: scroll!important;
-    height: 220vh;
+    height: 100%;
     text-align: center;
   }
 

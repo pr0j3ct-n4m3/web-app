@@ -1,0 +1,17 @@
+patterns:
+  homepage-panels-inverted:
+    title: "Homepage panel, pt2"
+    description: |
+      Homepage panels.
+    fields:
+      - name: snippet
+        type: string
+        example: "snippetVar"
+      - name: panel-title
+        type: string
+        example: "panelTitleVar"
+      - name: panel-body
+        type: string
+        example: "panelBodyVar"
+      - name: panel-image
+        type: string

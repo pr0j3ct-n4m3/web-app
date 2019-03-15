@@ -26,4 +26,9 @@ layout: default
       {% pattern homepage-panels/homepage-panels snippet=homepagePanelVar.snippet panel-title=homepagePanelVar.panel-title panel-body=homepagePanelVar.panel-body panel-image=homepagePanelVar.panel-image %}
     {% endfor %}
   </section>
+  <section class="wrapper island grid">
+    {% for homepagePanelVarinverted in site.data.homepagepanelinverted %}
+      {% pattern homepage-panels-inverted/homepage-panels-inverted snippet=homepagePanelVarinverted.snippet panel-title=homepagePanelVarinverted.panel-title panel-body=homepagePanelVarinverted.panel-body panel-image=homepagePanelVarinverted.panel-image %}
+    {% endfor %}
+  </section>
 </main>
