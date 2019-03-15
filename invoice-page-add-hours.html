@@ -2,6 +2,10 @@
 layout: subpage
 ---
 
+<div class="app-mobile-nav">
+  {% include  mobile-app-nav.html %}
+</div>
+
 <section id="dashboard-main-viewport" style="width:89%" class="dashboard-card">
 
   <div style="padding-bottom: 0px;!important" class="island push-0">
@@ -119,11 +123,11 @@ layout: subpage
                   {% pattern form-fields/short-text-input short-text-input="Description"%}
                 </div>
                 <div class="unit xs-1 s-1 m-1-2 l-1-2">
-                  <li class="gutter btn btn-primary">
-                    <a class="nano text-upper white semibold text-deco-none" href="#">Add</a>
+                  <li class="gutter btn btn-ghost">
+                    <a class="nano text-upper white semibold text-deco-none" href="/invoice-page">Add</a>
                   </li>
                   <li class="gutter btn btn-ghost">
-                    <a class="nano text-upper white semibold text-deco-none" href="#">Cancel</a>
+                    <a class="nano text-upper white semibold text-deco-none" href="/invoice-page">Cancel</a>
                   </li>
                 </div>
               </form>
