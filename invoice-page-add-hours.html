@@ -119,12 +119,14 @@ layout: subpage
                   {% pattern form-fields/short-text-input short-text-input="Description"%}
                 </div>
                 <div class="unit xs-1 s-1 m-1-2 l-1-2">
-                  <li class="gutter btn btn-primary">
-                    <a class="nano text-upper white semibold text-deco-none" href="#">Add</a>
-                  </li>
-                  <li class="gutter btn btn-ghost">
-                    <a class="nano text-upper white semibold text-deco-none" href="#">Cancel</a>
-                  </li>
+                  <div class="grid">
+                    <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+                      {% pattern buttons/basic basic="Add" href="/invoice-page/" %}
+                    </div>
+                    <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+                      {% pattern buttons/light light="Cancel" href="/invoice-page/" %}
+                    </div>
+                  </div>
                 </div>
               </form>
             </div>
