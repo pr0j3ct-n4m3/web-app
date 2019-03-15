@@ -1,4 +1,5 @@
 - snippet: "Control"
   panel-title: "<b>Easy</b> Data Management"
-  panel-body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis libero laoreet, pellentesque ex sit amet, pellentesque libero. Donec ut feugiat mauris, eget vulputate erat. Vivamus nunc enim, rutrum quis feugiat non, volutpat sed massa. Duis fermentum turpis justo. Mauris rutrum ac enim non consequat. Aenean tempor magna ac est molestie pharetra. Mauris id consequat risus. Proin id nibh vitae ipsum feugiat hendrerit."
+  panel-body: "Data management is an administrative process that includes acquiring, validating, storing, protecting, and processing required data to ensure the accessibility, reliability, and timeliness of the data for its users. This platform offers a form of control that allows for easy data management. Controlling where you data is being stores is made easy with OutVoice."
   panel-image: "panel-image-1.svg"
+
